@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+}
+
+img{
+    width: 100%
+}
+
+.nav-bar{
+    width: 90%;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+h3{
+    color: rgb(230, 83, 60);
+}
+
+.title-txt{
+    /* font-family: "Inter"; */
+    font-style: italic;
+    font-size: 36px;
+}
+
+/* nav pages */
+
+.pages-1{
+    border-radius: 46px;
+    padding: 10px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-pages{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.bar-icon {
+    display: none;
+}
+
+/* banner section  */
+
+.banner-1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: left; */
+    padding-right: 50px;
+}
+
+.banner-2{
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.banner-title{
+    font-size: 4.7rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.banner-title .shape{
+    font-weight: 400;
+    font-family: "miama";
+}
+
+.banner-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.primary-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
+.banner-btn{
+    border-radius: 44px;
+    padding: 10px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+}
+
+.banner-btn2{
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    border-radius: 3.4rem;
+    padding: 8px;
+}
+
+.workout{
+      position: absolute;
+      margin-top: -440px;
+      margin-left: 350px;
+      border: 0px solid;
+      padding: .5rem;
+      text-align: left;
+      align-items: center;
+      border-radius: .5rem;
+      color: white;
+      width: 140px;
+      height: 80px;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tutorial{
+      position: absolute;
+      margin-top: -140px;
+      margin-left: 6px;
+      border:0px solid;
+      width: 150px;
+      height: 70px;
+      padding: .4rem;
+      border-radius: .5rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+}
+
+.circle{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+  }
+  .circle h5{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  .circle p{
+    margin-right: 115px;
+    margin-top: 45px;
+  }
+
+  .workout-title{
+    font-size: 1rem;
+    font-weight: 1200;
+    margin: 8px;
+  }
+
+  .tutorial-title{
+    font-weight: 1200;
+  }
+
+  .workout-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .tutorial-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    margin-top: -12px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+
+.banner-img img{
+    width: 400px;
+    height: 580px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+
+
+
+
