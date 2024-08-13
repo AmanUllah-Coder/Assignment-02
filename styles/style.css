@@ -59,9 +59,6 @@ h3{
     cursor: pointer;
 }
 
-.bar-icon {
-    display: none;
-}
 
 /* banner section  */
 
@@ -163,7 +160,7 @@ h3{
     margin-bottom: 25px;
     margin-top: 10px;
   }
-  
+
   .circle p{
     margin-right: 115px;
     margin-top: 45px;
@@ -628,3 +625,151 @@ h3{
         text-align: center;
         margin-top: 15px;
     }
+
+    /* Responsive */
+
+    @media screen and (max-width:576px) { 
+        .hide{
+            display: none;
+        }
+
+        .menu{
+            display: contents;
+        }
+
+        .title,
+        .pages-1,
+        .banner-1,
+        .banner-img,
+        .change,
+        .change-content,
+        .habit-content {
+            flex-direction: column;
+        }
+
+        .banner-title{
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            }
+
+            .banner-img{
+                margin: 0 auto;
+                width: 10%;
+                object-fit: cover;
+                width: 400px;
+                height: 500px;
+                margin-left: -50px;
+                margin-bottom: 1rem;
+            }
+
+            .circle-btn{
+                position: absolute;
+                display: block;
+                margin-left: 0px;
+                margin-right: 0px;
+              }
+
+              span{
+                font-size: 40px;
+            }
+
+            .workout{
+                position:absolute;
+                width: 120px;
+                height: 70px;
+                margin-top: -525px;
+                margin-left: 285px;
+                text-align: left;
+                align-items: center;
+                justify-content: center;
+                border: 0px solid;
+                padding: .4rem;
+                border-radius: .5rem;
+                background-color: rgba(255, 255, 255, 0.1);
+                color: white;
+            }
+
+            .tutorial{
+                border:0px solid;
+                width: 150px;
+                height: 60px;
+                position: absolute;
+                margin-top: -320px;
+                margin-left: 100px;
+                padding: .4rem;
+                border-radius: .5rem;
+                background-color: rgba(255, 255, 255, 0.1);
+                color: white;
+                }
+
+                .run{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    gap: 100px;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-radius: 18px;
+                    margin: 0 auto;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width: auto;
+                    height: auto;
+                    padding: 30px;
+                    background: rgb(34, 34, 34);
+                }
+                
+                .run-an, .run-title{
+                    font-size: 30px;
+                }
+
+                .run-des{
+                    font-size: 14px;
+                }
+
+                .run-an, .run-btn{
+                    width: 222px;
+                }
+
+                .bmi{
+                    margin: 0 auto;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: left;
+                }
+            
+                .bmi-title{
+                    margin-top: 20px;
+                    font-size: 32px;
+                }
+
+                .bmi-des{
+                    font-size: 14px;
+                    width: 260px;
+                }
+
+                .cal{
+                    display: flex;
+                    flex-direction: column;
+                    width: auto;
+                    height: auto;
+                    margin: 0 auto;
+                }
+                .cal-table{
+                    margin: 0 auto;
+                    margin-left: 20px;
+                }
+
+                .table-tiitle{
+                    font-size: 16px;
+                    font-weight: 900;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    color: rgb(255, 255, 255);
+                }
+
+    }
+        
+        
