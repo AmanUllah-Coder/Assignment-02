@@ -20,6 +20,10 @@ img{
     border-radius: 2rem;
 }
 
+.menu{
+    display: none;
+}
+
 h3{
     color: rgb(230, 83, 60);
 }
@@ -34,7 +38,7 @@ h3{
 
 .pages-1{
     border-radius: 46px;
-    padding: 10px;
+    padding: 12px;
     background: rgb(230, 83, 60);
     font-weight: 600;
 }
