@@ -626,7 +626,7 @@ h3{
         margin-top: 15px;
     }
 
-    /* Responsive */
+    /* Responsive Part Started From Here*/
 
     @media screen and (max-width:576px) { 
         .hide{
@@ -702,6 +702,11 @@ h3{
                 background-color: rgba(255, 255, 255, 0.1);
                 color: white;
                 }
+
+                .change-content{
+                    margin-bottom: 40px;
+                    
+                  }
 
                 .run{
                     display: grid;
@@ -899,7 +904,6 @@ h3{
                 }
 
                 .footer-main{
-                    /* margin-left: 18px; */
                     margin: 0 auto;
                 }
 
@@ -947,7 +951,4 @@ h3{
                     margin-left: 20px;
                 }
             
-    }
-
-        
-        
+    }   
